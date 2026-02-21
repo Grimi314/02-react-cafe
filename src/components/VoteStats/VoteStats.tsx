@@ -1,10 +1,8 @@
 import styles from "./VoteStats.module.css";
 
-export interface Votes {
-  good: number;
-  neutral: number;
-  bad: number;
-}
+
+
+import type { Votes } from "../../types/votes.ts";
 
 interface VoteStatsProps {
   votes: Votes;
